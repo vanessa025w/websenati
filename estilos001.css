@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.banner{
+	background-image:url(1.jpg);
+	background-position: center center; 
+	-webkit-background-size:cover;
+	background-size: cover;
+	height: 100vh;
+	font-family: arial;
+	position: relative;
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.content h2{
+	color: #262626;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.content p{
+	color: #262626;
+	font-size: 20px;
+}
